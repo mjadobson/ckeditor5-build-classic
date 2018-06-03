@@ -16,12 +16,12 @@ module.exports = {
 	plugins: [
 		'@ckeditor/ckeditor5-essentials/src/essentials',
 
-		'@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
+		// '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
 		'@ckeditor/ckeditor5-autoformat/src/autoformat',
 		'@ckeditor/ckeditor5-basic-styles/src/bold',
 		'@ckeditor/ckeditor5-basic-styles/src/italic',
 		'@ckeditor/ckeditor5-block-quote/src/blockquote',
-		'@ckeditor/ckeditor5-easy-image/src/easyimage',
+		// '@ckeditor/ckeditor5-easy-image/src/easyimage',
 		'@ckeditor/ckeditor5-heading/src/heading',
 		'@ckeditor/ckeditor5-image/src/image',
 		'@ckeditor/ckeditor5-image/src/imagecaption',
@@ -30,7 +30,8 @@ module.exports = {
 		'@ckeditor/ckeditor5-image/src/imageupload',
 		'@ckeditor/ckeditor5-link/src/link',
 		'@ckeditor/ckeditor5-list/src/list',
-		'@ckeditor/ckeditor5-paragraph/src/paragraph'
+		'@ckeditor/ckeditor5-paragraph/src/paragraph',
+		'ckeditor5-s3-upload/src/s3upload'
 	],
 
 	// Editor config.
